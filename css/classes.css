@@ -8,13 +8,6 @@ html, body {
     flex-direction: column;
 }
 
-textarea {
-    width: 100%;
-    margin: 5px 0;
-    padding: 3px 0;
-    margin: 0;
-}
-
 input, textarea, select {
     border: 0;
 }
@@ -23,18 +16,8 @@ input:focus, textarea:focus, select:focus {
     outline: 0;
 }
 
-ul {
-    margin: 0;
-}
-
 hr {
     margin: 0.5rem 0;
-}
-
-@media (max-width: 1040px) {
-    #header-img {
-        width: 100%;
-    }
 }
 
 #modalBody {
@@ -79,14 +62,6 @@ hr {
     text-align: center;
 }
 
-.dropdown {
-    cursor: pointer;
-}
-
-.dropdown-item:active {
-    background-color: #111;
-}
-
 .block-text {
     display: block;
 }
@@ -108,10 +83,7 @@ hr {
 
 .page-style {
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    margin: 10px 10px;
-    padding: 15px;
+    margin: 10px;
 }
 
 .table-row {
@@ -145,10 +117,6 @@ hr {
     font-weight: 700;
 }
 
-.light {
-    font-weight: 400;
-}
-
 .table-input {
     color: black;
     width: 99%;
@@ -158,20 +126,6 @@ hr {
 .table-input-form {
     color: black;
     width: 99%;
-}
-
-.text-bullet>textarea {
-    vertical-align: text-top;
-}
-
-#narrative {
-    padding-top: 0;
-}
-
-.spoiler {
-    border: #333 solid 1px;
-    padding: 3px 7px;
-    margin-bottom: 5px;
 }
 
 ::placeholder {
